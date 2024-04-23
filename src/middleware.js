@@ -5,7 +5,7 @@ const rateLimiting = require('express-rate-limit')
 
 const apikey = async (req, res, next) => {
   /*
-    #swagger.security = [{
+    #swagger.security = [{ 
           "apiKeyAuth": []
     }]
   */
